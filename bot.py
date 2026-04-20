@@ -27,7 +27,7 @@ def send_email(old_price, new_price, product_name, url):
 
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
-    server.login("yunus.aksu.dev@gmail.com", "bywt ukdx ogjm iljl")
+    server.login("yunus.aksu.dev@gmail.com", "")
     server.sendmail(
         "yunus.aksu.dev@gmail.com",
         "dev.yunus.aksu@gmail.com",
